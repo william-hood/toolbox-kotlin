@@ -1,11 +1,6 @@
-##### Release 3.1 🚧 WORK IN PROGRESS 🚧
-
-The "Hoodland Open Source Projects" are being split into their individual components and put into the Maven Central Repository.
-Testing for this release was done against Linux Mint 22.1 and Windows 11.
-
----
+##### Release 3.1
 # Toolbox
-
+<img align="left" src="examples/toolbox.jpg">
 **An assorted miscellany of tools and toys.**
 
 - Matrixfile - Easily creates and manages files of CSV data (you may use tabs or other delimiters as you wish).
@@ -14,7 +9,7 @@ Testing for this release was done against Linux Mint 22.1 and Windows 11.
 - SubnameFactory - Do you need to programmatically generate several similar names? TestA, TestB, TestC and so on? This makes it easy.
 - ZipFileCreator - ...is exactly that. It creates a compressed Zip file containing all files in the directory you specify, recursing down any subdirectories it finds.
 
-- **ToolboxJava** can be found here (TBD) This is a wrapper for Toolbox that allows use as if it were native Java avoiding the usual issues of using compiled Kotlin directly in a Java program.
+- **ToolboxJava** can be found here *(link coming soon)* This is a wrapper for Toolbox that allows use as if it were native Java avoiding the usual issues of using compiled Kotlin directly in a Java program.
 
 ## Usage & Known Issues
 - Clone the repository and open the root directory in IntelliJ IDEA CE.
@@ -22,7 +17,7 @@ Testing for this release was done against Linux Mint 22.1 and Windows 11.
 - All projects are "Kotlin First". Use from Java is supported by way of the Java wrappers, and only using the Kotlin bits when a Java wrapping is not available.
 
 ## Released under the terms of the MIT License
-© 2020, 2021, 2022, 2023 William Hood
+© 2020, 2021, 2022, 2023, 2025 William Hood
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
