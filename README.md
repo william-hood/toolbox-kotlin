@@ -1,7 +1,7 @@
 ##### Release 3.1
 # Toolbox
-<img align="left" src="examples/toolbox.jpg">
 **An assorted miscellany of tools and toys.**
+<img align="left" src="examples/toolbox.jpg">
 
 - Matrixfile - Easily creates and manages files of CSV data (you may use tabs or other delimiters as you wish).
 - QuantumTextFile - Readies a text output file but does not actually create it until and unless the first write operation takes place.
