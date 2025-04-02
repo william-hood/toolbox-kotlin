@@ -6,8 +6,8 @@
 
     <groupId>io.github.william-hood</groupId>
     <artifactId>toolbox-kotlin</artifactId>
-    <packaging>pom</packaging>
-    <version>3.1.0</version>
+    <packaging>jar</packaging>
+    <version>3.1.1</version>
 
     <name>Hoodland Toolbox for Kotlin</name>
     <description>An assorted miscellany of tools and toys (used by the author's other projects).</description>
@@ -97,7 +97,20 @@
                     <execution>
                         <id>attach-sources</id>
                         <goals>
+                            <goal>jar</goal>
                             <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.jetbrains.dokka</groupId>
+                <artifactId>dokka-maven-plugin</artifactId>
+                <version>1.8.20</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>dokka</goal>
                         </goals>
                     </execution>
                 </executions>
