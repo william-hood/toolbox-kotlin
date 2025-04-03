@@ -1,6 +1,8 @@
 ##### Release 3.1
 # Toolbox
-**An assorted miscellany of tools and toys.**
+### Add to your Kotlin project's `pom.xml` file by including the dependency as shown in the Maven Central Repository: https://central.sonatype.com/artifact/io.github.william-hood/toolbox-kotlin
+
+**Hoodland Toolbox - An assorted miscellany of tools and toys.**
 <img align="left" src="examples/toolbox.jpg">
 
 - Matrixfile - Easily creates and manages files of CSV data (you may use tabs or other delimiters as you wish).
