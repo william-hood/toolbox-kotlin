@@ -1,8 +1,13 @@
 ##### Release 3.1
 # Toolbox
-### Add to your Kotlin project's `pom.xml` file by including the dependency as shown in the Maven Central Repository: https://central.sonatype.com/artifact/io.github.william-hood/toolbox-kotlin
+### To use Toolbox in your Kotlin project, update `pom.xml` by including the dependency as shown in the Maven Central Repository: https://central.sonatype.com/artifact/io.github.william-hood/toolbox-kotlin
+
+**Toolbox for Java can be found [here](https://github.com/william-hood/toolbox-java).**
+
+<hr>
 
 **Hoodland Toolbox - An assorted miscellany of tools and toys.**
+
 <img align="left" src="examples/toolbox.jpg">
 
 - Matrixfile - Easily creates and manages files of CSV data (you may use tabs or other delimiters as you wish).
@@ -11,12 +16,7 @@
 - SubnameFactory - Do you need to programmatically generate several similar names? TestA, TestB, TestC and so on? This makes it easy.
 - ZipFileCreator - ...is exactly that. It creates a compressed Zip file containing all files in the directory you specify, recursing down any subdirectories it finds.
 
-- **ToolboxJava** can be found here *(link coming soon)* This is a wrapper for Toolbox that allows use as if it were native Java avoiding the usual issues of using compiled Kotlin directly in a Java program.
-
-## Usage & Known Issues
-- Clone the repository and open the root directory in IntelliJ IDEA CE.
-- The Kotlin code and the overall project is intended for use with IntelliJ IDEA (Community Edition). Eclipse is supported for using the Java wrappers. Feel free to adapt the code to any other IDE or Editor you're comfortable with, with the understanding that I don't officially support such use.
-- All projects are "Kotlin First". Use from Java is supported by way of the Java wrappers, and only using the Kotlin bits when a Java wrapping is not available.
+<br>
 
 ## Released under the terms of the MIT License
 © 2020, 2021, 2022, 2023, 2025 William Hood
